@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f9fafb; /* Light gray background */
+}
+
+/* Utility classes to mimic Tailwind (since we didn't install the full Tailwind compiler to save time) */
+.p-6 { padding: 1.5rem; }
+.p-8 { padding: 2rem; }
+.bg-gray-50 { background-color: #f9fafb; }
+.min-h-screen { min-height: 100vh; }
+.text-3xl { font-size: 1.875rem; line-height: 2.25rem; }
+.font-bold { font-weight: 700; }
+.mb-6 { margin-bottom: 1.5rem; }
+.grid { display: grid; }
+.gap-6 { gap: 1.5rem; }
+.bg-white { background-color: #ffffff; }
+.rounded { border-radius: 0.25rem; }
+.shadow { box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06); }
+.flex { display: flex; }
+.items-center { align-items: center; }
+.text-gray-500 { color: #6b7280; }
+.text-2xl { font-size: 1.5rem; line-height: 2rem; }
+
+/* Responsive Grid */
+@media (min-width: 768px) {
+  .md\:grid-cols-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
