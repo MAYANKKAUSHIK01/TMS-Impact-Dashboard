@@ -1,5 +1,3 @@
----
-
 ## 📖 Table of Contents
 1.  [Executive Summary](#-executive-summary)
 2.  [Task 1: Strategic Analysis & Audit](#-task-1-strategic-analysis--audit)
